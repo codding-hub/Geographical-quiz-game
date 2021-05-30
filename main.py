@@ -33,7 +33,7 @@ while len(guess_states) < 50:
         t.penup()
         state_data = data[data.state == answer]
         t.goto(float(state_data.x), float(state_data.y))
-        t.write(answer,font=FONT)  ##answer==state_data.state.item()
+        t.write(answer,font=FONT)  
 
 
 
