@@ -7,13 +7,8 @@ image="blank_states_img.gif"
 screen.addshape(image)
 turtle.shape(image)
 
-# def got_mouse_click_coor(x,y):
-#     print(x,y)
-#
-# turtle.onscreenclick(got_mouse_click_coor)
 data = pandas.read_csv("50_states.csv")
 all_states = data.state.to_list()
-
 
 score=0
 guess_states=[]
