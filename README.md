@@ -1,7 +1,9 @@
 # Geographical-quiz-game
+
 Developed with python Module
 
 Working with .csv files
+
 Playing with pandas (Python module):-
       1. how to import PANDAS
       2. how to open , write, close the file in pandas
